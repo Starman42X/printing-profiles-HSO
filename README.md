@@ -14,3 +14,6 @@ In **Detail** mode, the printer prioritizes beautiful prints over stability and 
 
 ## Engineering
 In **Engineering** mode, the printer delivers the best tolerances, highest accuracy & superior impact resistance at the expense of significantly more print time. It is intended for printing functional prototypes and end to use parts for harsh environments.
+
+# FilaMl
+A machine learning based algorithm helping you to choose your desired material from the HSO available Filaments
