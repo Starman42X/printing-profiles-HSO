@@ -1,5 +1,5 @@
 {
-    "bottom_shell_layers": "8",
+    "bottom_shell_layers": "10",
     "bottom_shell_thickness": "1.6",
     "default_acceleration": [
         "3500",
@@ -8,7 +8,7 @@
         "nil"
     ],
     "from": "User",
-    "inherits": "0.20mm Balanced Strength @BBL H2D",
+    "inherits": "0.16mm Balanced Quality @BBL H2D",
     "initial_layer_acceleration": [
         "1500",
         "nil",
@@ -46,12 +46,12 @@
         "nil"
     ],
     "internal_solid_infill_speed": [
-        "35",
+        "50",
         "nil",
         "nil",
         "nil"
     ],
-    "name": "0.20mm Engineering @BBL H2D",
+    "name": "0.12mm Engineering @BBL H2D",
     "outer_wall_acceleration": [
         "1500",
         "nil",
@@ -77,7 +77,7 @@
         "Direct Drive Standard",
         "Direct Drive High Flow"
     ],
-    "print_settings_id": "0.20mm Engineering @BBL H2D",
+    "print_settings_id": "0.16mm Engineering @BBL H2D",
     "resolution": "0.01",
     "skeleton_infill_density": "20%",
     "skin_infill_density": "20%",

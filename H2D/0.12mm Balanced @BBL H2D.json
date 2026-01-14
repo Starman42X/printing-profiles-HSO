@@ -1,6 +1,6 @@
 {
     "bottom_shell_layers": "8",
-    "bottom_shell_thickness": "1.6",
+    "bottom_shell_thickness": "1",
     "default_acceleration": [
         "3500",
         "nil",
@@ -8,7 +8,7 @@
         "nil"
     ],
     "from": "User",
-    "inherits": "0.20mm Balanced Strength @BBL H2D",
+    "inherits": "0.12mm Fine @BBL H2D",
     "initial_layer_acceleration": [
         "1500",
         "nil",
@@ -40,18 +40,18 @@
         "nil"
     ],
     "inner_wall_speed": [
-        "35",
+        "100",
         "nil",
         "nil",
         "nil"
     ],
     "internal_solid_infill_speed": [
-        "35",
+        "100",
         "nil",
         "nil",
         "nil"
     ],
-    "name": "0.20mm Engineering @BBL H2D",
+    "name": "0.12mm Balanced @BBL H2D",
     "outer_wall_acceleration": [
         "1500",
         "nil",
@@ -59,7 +59,7 @@
         "nil"
     ],
     "outer_wall_speed": [
-        "35",
+        "50",
         "nil",
         "nil",
         "nil"
@@ -77,13 +77,13 @@
         "Direct Drive Standard",
         "Direct Drive High Flow"
     ],
-    "print_settings_id": "0.20mm Engineering @BBL H2D",
+    "print_settings_id": "0.12mm Balanced @BBL H2D",
     "resolution": "0.01",
     "skeleton_infill_density": "20%",
     "skin_infill_density": "20%",
     "slice_closing_radius": "0.05",
     "sparse_infill_density": "20%",
-    "sparse_infill_pattern": "triangles",
+    "sparse_infill_pattern": "grid",
     "sparse_infill_speed": [
         "100",
         "nil",
@@ -91,7 +91,7 @@
         "nil"
     ],
     "top_one_wall_type": "not apply",
-    "top_shell_thickness": "1.6",
+    "top_shell_thickness": "1",
     "top_surface_acceleration": [
         "1500",
         "nil",
@@ -125,6 +125,6 @@
         "nil"
     ],
     "wall_generator": "arachne",
-    "wall_loops": "4",
-    "wall_sequence": "outer wall/inner wall"
+    "wall_loops": "2",
+    "wall_sequence": "inner wall/outer wall"
 }

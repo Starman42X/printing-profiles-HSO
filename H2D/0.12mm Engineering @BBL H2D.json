@@ -1,10 +1,69 @@
 {
-    "bottom_shell_layers": "6",
+    "bottom_shell_layers": "12",
     "bottom_shell_thickness": "1.6",
-    "enable_support": "1",
+    "default_acceleration": [
+        "3500",
+        "nil",
+        "nil",
+        "nil"
+    ],
     "from": "User",
-    "inherits": "0.120mm Balanced Strength @BBL H2D",
+    "inherits": "0.12mm Fine @BBL H2D",
+    "initial_layer_acceleration": [
+        "1500",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "initial_layer_infill_speed": [
+        "30",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "initial_layer_speed": [
+        "30",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "initial_layer_travel_acceleration": [
+        "1500",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "inner_wall_acceleration": [
+        "3500",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "inner_wall_speed": [
+        "35",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "internal_solid_infill_speed": [
+        "50",
+        "nil",
+        "nil",
+        "nil"
+    ],
     "name": "0.12mm Engineering @BBL H2D",
+    "outer_wall_acceleration": [
+        "1500",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "outer_wall_speed": [
+        "35",
+        "nil",
+        "nil",
+        "nil"
+    ],
     "precise_z_height": "1",
     "print_extruder_id": [
         "1",
@@ -25,11 +84,47 @@
     "slice_closing_radius": "0.05",
     "sparse_infill_density": "20%",
     "sparse_infill_pattern": "triangles",
+    "sparse_infill_speed": [
+        "100",
+        "nil",
+        "nil",
+        "nil"
+    ],
     "top_one_wall_type": "not apply",
     "top_shell_thickness": "1.6",
+    "top_surface_acceleration": [
+        "1500",
+        "nil",
+        "nil",
+        "nil"
+    ],
     "top_surface_pattern": "monotonic",
+    "top_surface_speed": [
+        "100",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "travel_acceleration": [
+        "5000",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "travel_speed": [
+        "150",
+        "nil",
+        "nil",
+        "nil"
+    ],
     "version": "2.4.0.8",
+    "vertical_shell_speed": [
+        "100%",
+        "nil",
+        "nil",
+        "nil"
+    ],
     "wall_generator": "arachne",
-    "wall_loops": "8",
+    "wall_loops": "4",
     "wall_sequence": "outer wall/inner wall"
 }
